@@ -8,15 +8,15 @@ public class TestAnimal {
         Horse myHorse = registry.createHorse();
 
         System.out.println("Animal: " + mySheep.getType() + " named " + mySheep.getName());
-        System.out.print("Action: ");
+        System.out.print("Sound: ");
         mySheep.makeSound();
 
         System.out.println("Animal: " + myCow.getType());
-        System.out.print("Action: ");
+        System.out.print("Sound: ");
         myCow.makeSound();
 
         System.out.println("Animal: " + myHorse.getType());
-        System.out.print("Action: ");
+        System.out.print("Sound: ");
         myHorse.makeSound();
 
         Sheep sheep2 = registry.createSheep("Shaun");
